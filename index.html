@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeNest | Find Your Dream Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container nav">
+        <a href="index.html" class="logo">
+            <span>⌂</span> HomeNest
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="properties.html">Properties</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="contact.html" class="nav-btn">Contact Us</a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+            <p class="small-title">YOUR TRUSTED REAL ESTATE PARTNER</p>
+
+            <h1>Find Your<br><span>Dream Home</span></h1>
+
+            <p>
+                Discover beautiful homes, apartments and properties
+                in the locations you love.
+            </p>
+
+            <a href="properties.html" class="primary-btn">
+                Explore Properties →
+            </a>
+        </div>
+
+
+        <!-- SEARCH BOX -->
+
+        <div class="search-box">
+
+            <div class="search-item">
+                <label>Location</label>
+                <select id="locationFilter">
+                    <option>Any Location</option>
+                    <option>Lagos</option>
+                    <option>Abuja</option>
+                    <option>Port Harcourt</option>
+                    <option>Enugu</option>
+                </select>
+            </div>
+
+            <div class="search-item">
+                <label>Property Type</label>
+                <select id="typeFilter">
+                    <option>Any Type</option>
+                    <option>Apartment</option>
+                    <option>House</option>
+                    <option>Villa</option>
+                    <option>Office</option>
+                </select>
+            </div>
+
+            <div class="search-item">
+                <label>Min Price</label>
+                <select id="priceFilter">
+                    <option>No Min</option>
+                    <option>₦10,000,000</option>
+                    <option>₦25,000,000</option>
+                    <option>₦50,000,000</option>
+                </select>
+            </div>
+
+            <button class="search-btn" id="searchBtn">Search</button>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- FEATURES -->
+
+<section class="features section">
+
+    <div class="container feature-grid">
+
+        <div class="feature">
+            <div class="feature-icon">⌂</div>
+            <div>
+                <h3>Wide Range of Properties</h3>
+                <p>Choose from apartments, houses, villas and more.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">✓</div>
+            <div>
+                <h3>Trusted Properties</h3>
+                <p>We carefully verify properties before listing them.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">☎</div>
+            <div>
+                <h3>Expert Agents</h3>
+                <p>Our experienced agents are ready to help you.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURED PROPERTIES -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="section-label">OUR PROPERTIES</p>
+                <h2>Featured Properties</h2>
+                <p>Explore some of our handpicked properties.</p>
+            </div>
+
+            <a href="properties.html" class="outline-btn">
+                View All Properties →
+            </a>
+
+        </div>
+
+
+        <div class="property-grid">
+
+            <div class="property-card">
+
+                <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80">
+                    <span class="price">₦85M</span>
+                </div>
+
+                <div class="property-info">
+                    <p class="property-type">FOR SALE</p>
+                    <h3>Modern Family House</h3>
+                    <p class="location">📍 Lekki, Lagos</p>
+
+                    <div class="property-details">
+                        <span>🛏 4 Beds</span>
+                        <span>🚿 3 Baths</span>
+                        <span>▣ 2,500 sqft</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="property-card">
+
+                <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80">
+                    <span class="price">₦45M</span>
+                </div>
+
+                <div class="property-info">
+                    <p class="property-type">FOR SALE</p>
+                    <h3>Luxury City Apartment</h3>
+                    <p class="location">📍 Victoria Island, Lagos</p>
+
+                    <div class="property-details">
+                        <span>🛏 2 Beds</span>
+                        <span>🚿 2 Baths</span>
+                        <span>▣ 1,200 sqft</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="property-card">
+
+                <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80">
+                    <span class="price">₦120M</span>
+                </div>
+
+                <div class="property-info">
+                    <p class="property-type">FOR SALE</p>
+                    <h3>Beautiful Luxury Villa</h3>
+                    <p class="location">📍 Maitama, Abuja</p>
+
+                    <div class="property-details">
+                        <span>🛏 5 Beds</span>
+                        <span>🚿 4 Baths</span>
+                        <span>▣ 3,200 sqft</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta">
+
+    <div class="container cta-content">
+
+        <div>
+            <p class="section-label">SELL WITH US</p>
+            <h2>Looking to Sell Your Property?</h2>
+            <p>
+                List your property with HomeNest and reach thousands
+                of potential buyers.
+            </p>
+        </div>
+
+        <a href="contact.html" class="white-btn">
+            List Your Property →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="logo footer-logo">
+                <span>⌂</span> HomeNest
+            </a>
+            <p>
+                Helping you find the perfect place to call home.
+            </p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="properties.html">Properties</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <p>📍 Lagos, Nigeria</p>
+            <p>☎ +234 810 6144 219</p>
+            <p>✉ richieik25@gmail.com</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 HomeNest. All Rights Reserved.
+    </div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Properties | HomeNest</title>
+
+    <link rel="stylesheet" href="properties.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a href="index.html" class="logo">
+            <span>⌂</span> HomeNest
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Home</a>
+            <a href="properties.html" class="active">Properties</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="contact.html" class="nav-btn">Contact Us</a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+    </div>
+
+</header>
+
+
+<!-- PAGE HERO -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <p>HOME → PROPERTIES</p>
+
+        <h1>Our Properties</h1>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="property-layout">
+
+
+            <!-- FILTER -->
+
+            <aside class="filter-box">
+
+                <h3>Filter Properties</h3>
+
+                <label>Location</label>
+                <select>
+                    <option>Any Location</option>
+                    <option>Lagos</option>
+                    <option>Abuja</option>
+                    <option>Port Harcourt</option>
+                </select>
+
+                <label>Property Type</label>
+                <select>
+                    <option>Any Type</option>
+                    <option>House</option>
+                    <option>Apartment</option>
+                    <option>Villa</option>
+                </select>
+
+                <label>Price Range</label>
+                <select>
+                    <option>Any Price</option>
+                    <option>₦10M - ₦30M</option>
+                    <option>₦30M - ₦60M</option>
+                    <option>₦60M+</option>
+                </select>
+
+                <label>Bedrooms</label>
+                <select>
+                    <option>Any</option>
+                    <option>1 Bedroom</option>
+                    <option>2 Bedrooms</option>
+                    <option>3 Bedrooms</option>
+                    <option>4+ Bedrooms</option>
+                </select>
+
+                <button class="primary-btn filter-btn">
+                    Apply Filters
+                </button>
+
+            </aside>
+
+
+            <!-- PROPERTIES -->
+
+            <div class="property-grid">
+
+                <div class="property-card" data-location="lagos" data-type="villa" data-price="high">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80">
+                        <span class="price">₦45M</span>
+                    </div>
+
+                    <div class="property-info">
+                        <p class="property-type">FOR SALE</p>
+                        <h3>Luxury Apartment</h3>
+                        <p class="location">📍 Victoria Island, Lagos</p>
+
+                        <div class="property-details">
+                            <span>🛏 2 Beds</span>
+                            <span>🚿 2 Baths</span>
+                            <span>▣ 1,200 sqft</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="property-card" data-location="abuja" data-type="house" data-price="medium">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80">
+                        <span class="price">₦120M</span>
+                    </div>
+
+                    <div class="property-info">
+                        <p class="property-type">FOR SALE</p>
+                        <h3>Beautiful Villa</h3>
+                        <p class="location">📍 Maitama, Abuja</p>
+
+                        <div class="property-details">
+                            <span>🛏 5 Beds</span>
+                            <span>🚿 4 Baths</span>
+                            <span>▣ 3,200 sqft</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="property-card" data-location="portharcourt" data-type="apartment" data-price="low">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=900&q=80">
+                        <span class="price">₦65M</span>
+                    </div>
+
+                    <div class="property-info">
+                        <p class="property-type">FOR SALE</p>
+                        <h3>Contemporary Family Home</h3>
+                        <p class="location">📍 GRA, Port Harcourt</p>
+
+                        <div class="property-details">
+                            <span>🛏 4 Beds</span>
+                            <span>🚿 3 Baths</span>
+                            <span>▣ 2,800 sqft</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80">
+                        <span class="price">₦38M</span>
+                    </div>
+
+                    <div class="property-info">
+                        <p class="property-type">FOR SALE</p>
+                        <h3>Modern Downtown Apartment</h3>
+                        <p class="location">📍 Ikeja, Lagos</p>
+
+                        <div class="property-details">
+                            <span>🛏 2 Beds</span>
+                            <span>🚿 2 Baths</span>
+                            <span>▣ 1,000 sqft</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80">
+                        <span class="price">₦95M</span>
+                    </div>
+
+                    <div class="property-info">
+                        <p class="property-type">FOR SALE</p>
+                        <h3>Premium Family House</h3>
+                        <p class="location">📍 Lekki Phase 1, Lagos</p>
+
+                        <div class="property-details">
+                            <span>🛏 4 Beds</span>
+                            <span>🚿 4 Baths</span>
+                            <span>▣ 3,000 sqft</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=900&q=80">
+                        <span class="price">₦72M</span>
+                    </div>
+
+                    <div class="property-info">
+                        <p class="property-type">FOR SALE</p>
+                        <h3>Elegant Modern House</h3>
+                        <p class="location">📍 Wuse 2, Abuja</p>
+
+                        <div class="property-details">
+                            <span>🛏 3 Beds</span>
+                            <span>🚿 3 Baths</span>
+                            <span>▣ 2,200 sqft</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="logo footer-logo">
+                <span>⌂</span> HomeNest
+            </a>
+            <p>Helping you find the perfect place to call home.</p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="properties.html">Properties</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <p>📍 Lagos, Nigeria</p>
+            <p>☎ +234 810 6144 219</p>
+            <p>✉ richieik25@gmail.com</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 HomeNest. All Rights Reserved.
+    </div>
+
+</footer>
+    <footer class="footer">
+        <!-- footer content -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
